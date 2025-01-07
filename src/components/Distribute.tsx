@@ -22,7 +22,7 @@ const Distribute = () => {
           <div className="space-y-8">
             <div className="relative w-full">
               <h2 className="text-3xl font-bold">¿QUIERES DISTRIBUIR NUESTROS PRODUCTOS?</h2>
-              <DistributeLine />
+              {/* <DistributeLine /> */}
             </div>
             <div className="space-y-4">
               <p className="text-gray-700">

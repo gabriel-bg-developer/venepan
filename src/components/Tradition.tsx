@@ -13,7 +13,7 @@ const Tradition = () => {
               <h2 className="text-3xl font-bold uppercase">
                 Venepan: Más que pan, una tradición de bienestar
               </h2>
-              <TraditionLine />
+              {/* <TraditionLine /> */}
             </div>
 
             <p className="text-gray-700">

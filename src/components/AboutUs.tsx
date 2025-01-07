@@ -23,7 +23,7 @@ const AboutUs = () => {
           <div className="space-y-6">
             <div className="relative w-full">
               <h2 className="text-4xl font-bold">QUIÉNES SOMOS</h2>
-              <AboutUsLine />
+              {/* <AboutUsLine /> */}
             </div>
             
             <p className="text-lg italic text-gray-700">
@@ -53,7 +53,7 @@ const AboutUs = () => {
               <h3 className="text-2xl font-bold uppercase">
                 VENEPAN: MÁS QUE PAN, UNA TRADICIÓN DE BIENESTAR
               </h3>
-              <TraditionLine />
+              {/* <TraditionLine /> */}
             </div>
             
             <p className="text-gray-600">
