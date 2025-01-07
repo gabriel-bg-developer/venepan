@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Made Future';
+  src: url('/fonts/made-future.woff2') format('woff2'),
+       url('/fonts/made-future.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply text-black hover:text-[#DEB887] uppercase text-lg tracking-wider font-bold;
+  }
+  
+  .nav-link-button {
+    @apply text-black hover:text-[#DEB887] uppercase text-lg tracking-wider font-bold border border-black px-4 py-2;
+  }
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  min-height: 100vh;
+}
